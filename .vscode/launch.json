@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "pyramid",
+      "request": "launch",
+      "mainClass": "pyramid",
+      "projectName": "CHIRAYU_4c41597a"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS/Documents/GitHub/CHIRAYU/VSCODE",
-      "program": "c:/Users/ASUS/Documents/GitHub/CHIRAYU/VSCODE/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
